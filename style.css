@@ -80,10 +80,106 @@
     letter-spacing: 0%;
     text-align: left;
 }
+.signin_button{
+    position: absolute;
+    top: 5px;
+    left: 1300px;
+    width: 115px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 35px 20px 35px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border-radius: 58px;
+    background: rgb(251, 188, 5);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 #shirokiy{
     width: 114px;
     height: 28px;
 }
 .menu_objects:hover{
     cursor: pointer;
+}
+.Hero{
+    position: static;
+    width: 1440px;
+    height: 630px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 100px 0px 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.picture{
+    position: relative;
+    left: 850px;
+    background: url(./img/ilustration.png);
+    width: 576.86px;
+    height: 574.97px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px -40px;
+}
+.title{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 38px 0px;
+    font-family: Paytone One;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.text{
+    position: absolute;
+    left: 112px;
+    width: 498px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 27px 0px 27px 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 38px 0px;
+    color: rgb(50, 50, 50);
+    font-family: Open Sans;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#b2{
+    position: absolute;
+    left: 112px;
+    top: 525px;
 }
