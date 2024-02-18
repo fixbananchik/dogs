@@ -1,6 +1,5 @@
 .fon{
 position: static;
-width: 1440px;
 height: 618px;
 display: flex;
 flex-direction: row;
@@ -12,31 +11,43 @@ order: 0;
 flex-grow: 0;
 margin: 10px 0px;
 }
-.elipse{
-position: absolute;
-width: 492px;
-height: 48px;
-left: 767px;
-right: -767px;
-top: 19px;
-bottom: -19px;
-background: rgb(251, 188, 5);
-opacity: 0.2;
+.elips{
+    position: absolute;
+    width: 291.72px;
+    height: 281.86px;
+    left: 34.05px;
+    right: 253.14px;
+    top: 328.28px;
+    bottom: -111.25px;
+    transform: rotate(-16.27deg);
+    background: url(./img/Слой\ 1\ \(1\).png);
+    opacity: 0.2;
+}
+.elips2{
+    position: absolute;
+    width: 291.72px;
+    height: 277px;
+    left: 331.41px;
+    right: -44.22px;
+    top: 100.19px;
+    bottom: 108.42px;
+    transform: rotate(15.18deg);
+    background: url(./img/Слой\ 1\ \(1\).png), no-repeat;
+    opacity: 0.2;
 }
 .jir_text{
     position: absolute;
-width: 492px;
-height: 48px;
-left: 767px;
-right: -767px;
-top: 19px;
-bottom: -19px;
-color: rgb(50, 50, 50);
-font-family: Open Sans;
-font-size: 48px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
+    width: 500px;
+    height: 48px;
+    left: 740px;
+    top: 19px;
+    bottom: -19px;
+    color: rgb(50, 50, 50);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
 }
