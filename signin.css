@@ -11,29 +11,16 @@ order: 0;
 flex-grow: 0;
 margin: 10px 0px;
 }
-.elips{
+.phone_picture{
     position: absolute;
-    width: 291.72px;
-    height: 281.86px;
+    background: url(./img/app.png);
+    background-repeat: no-repeat;
+    width: 578.91px;
+    height: 700px;
     left: 34.05px;
-    right: 253.14px;
-    top: 328.28px;
-    bottom: -111.25px;
-    transform: rotate(-16.27deg);
-    background: url(./img/Слой\ 1\ \(1\).png);
-    opacity: 0.2;
-}
-.elips2{
-    position: absolute;
-    width: 291.72px;
-    height: 277px;
-    left: 331.41px;
-    right: -44.22px;
-    top: 100.19px;
-    bottom: 108.42px;
-    transform: rotate(15.18deg);
-    background: url(./img/Слой\ 1\ \(1\).png), no-repeat;
-    opacity: 0.2;
+    right: 758.95px;
+    top: 18.91px;
+    bottom: -18.91px;
 }
 .jir_text{
     position: absolute;
