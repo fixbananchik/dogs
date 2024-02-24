@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(./OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
 .main_page{
     position: absolute;
     width: 1460px;
@@ -138,15 +142,16 @@
     margin: 0px -40px;
 }
 .title{
-    background: url(./img/O\ melhor\ suporte\ no\ cuidado\ para\ seu\ melhor\ amigo.png);
-    background-repeat: no-repeat;
     position: absolute;
     width: 722px;
     height: 287px;
+    background: url(./img/O\ melhor\ suporte\ no\ cuidado\ para\ seu\ melhor\ amigo.png);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 27px 0px 27px 0px;
     flex: none;
     order: 0;
     flex-grow: 0;
